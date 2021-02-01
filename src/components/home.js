@@ -15,7 +15,7 @@ import Footer from './footer';
   return (
       <>
         <Header />
-        <img src={process.env.PUBLIC_URL+"/images/AIT.jpg"} width="100%" height="300" alt="college" />
+        <img src={process.env.PUBLIC_URL+"/images/gym.jpg"} width="100%" height="300" alt="college" />
         <MediaCard />
         <About />
         <br/>
