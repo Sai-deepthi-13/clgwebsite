@@ -1,0 +1,63 @@
+.menubar,
+.depmenubar {
+  background-color: rgb(209, 57, 46);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menubar ul,
+.depmenubar ul {
+  display: flex;
+  list-style: none;
+  color: #fff;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  padding: 20px;
+  margin: 0%;
+  width: 80%;
+}
+
+.menubar ul li a,
+.depmenubar ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.menubar ul li:hover,
+.depmenubar ul li:hover {
+  background-color: #e6bcab;
+}
+.menubar ul li a:hover,
+.depmenubar ul li a:hover {
+  color: black;
+}
+
+.submenudepartments {
+  display: none;
+  color: black;
+}
+
+.menubar ul li:hover .submenudepartments {
+  display: block;
+  position: absolute;
+  background: rgb(209, 57, 46);
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.menubar ul li:hover .submenudepartments ul {
+  display: block;
+  margin: 10px;
+  width: auto;
+}
+
+.depmenubar {
+  width: 1200px;
+  margin: auto;
+}
