@@ -27,7 +27,7 @@ export default function App() {
       <Header/>
       <BrowserRouter>
         <Switch>
-        <Route path="/college-website" exact component={Openpage}/>
+        <Route path="/clgwebsite" exact component={Openpage}/>
         <Route path="/components/Home" component={Openpage}/>
         <Route path="/components/departmentOverview" component={Department}/>
         <Route path="/components/programmes" component={Programmes}/>
