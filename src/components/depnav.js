@@ -8,7 +8,7 @@ const Depnav=()=>{
         <>
     <div className="depmenubar" >
           <ul>
-              <li><Link  to='/components/departmentOverview'>Overview</Link></li>
+              <li><a  href='/components/departmentOverview'>Overview</a></li>
               <li><a  href="/components/Programmes">Programmes</a></li>
               <li><a  href="/components/Faculty">Faculty</a></li>
               <li><a  href="/components/Research">Research</a></li>

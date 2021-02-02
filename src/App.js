@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import Programmes from './components/Programmes';
 import Department from './department';
-import {HashRouter,Switch,Route} from 'react-router-dom';
+import {Switch,Route, BrowserRouter} from 'react-router-dom';
 import Header from './components/header';
 import MediaCard from './components/cards';
 import About from './components/about';
@@ -25,9 +25,9 @@ export default function App() {
   return (
       <>
       <Header/>
-      <HashRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-        <Route path="/clgwebsite" exact component={Openpage}/>
+        <Route path="/" exact component={Openpage}/>
         <Route path="/components/Home" component={Openpage}/>
         <Route path="/components/departmentOverview" component={Department}/>
         <Route path="/components/programmes" component={Programmes}/>
@@ -38,7 +38,7 @@ export default function App() {
         <Route path="/components/Research" component={Research}/>
         <Route path="/components/Achievements" component={Achievements}/>        
         </Switch>
-      </HashRouter> 
+      </BrowserRouter> 
       <Footer/>
      {/* <Management/>*/}
       </>

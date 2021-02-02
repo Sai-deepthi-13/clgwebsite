@@ -38,7 +38,7 @@ const Header =  ()=> {
                     <div className="submenudepartments">
                       <ul>
                         <li>                       
-                          <a href="/components/departmentOverview"> Computer Science</a>
+                          <a href="/components/departmentOverview#"> Computer Science</a>
                         </li>
                       </ul>
                     </div>
@@ -50,16 +50,8 @@ const Header =  ()=> {
                 <li><a href="#">Events</a> </li>
               </ul>
             <Button color="inherit" className={classes.buttonstyles}>Login</Button>
-
-            </div>
-
-              
-                    
-
-                         
-    
-            </>   
-    
+            </div>  
+            </>       
          );
     } 
 export default Header;
