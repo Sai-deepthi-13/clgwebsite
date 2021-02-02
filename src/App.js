@@ -48,7 +48,7 @@ export default function App() {
 const Openpage = ()=> {
   return (
       <>
-        <img src={process.env.PUBLIC_URL+"/images/ait.jpg"} width="100%" height="300" alt="college" />
+        <img src={process.env.PUBLIC_URL+"/images/AIT.jpg"} width="100%" height="300" alt="college" />
         <MediaCard />
         <About />
         <br/>
